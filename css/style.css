@@ -1,0 +1,307 @@
+@charset "UTF-8";
+body {
+  -webkit-text-size-adjust: 100%;
+  color: #4c4c4c;
+  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, " メイリオ", Meiryo, Osaka, " ＭＳ Ｐゴシック", MS PGothic, " sans-serif";
+}
+
+main {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+p {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.cmn-title {
+  margin-top: 50px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cmn-title p {
+  border-left: 14px solid lightblue;
+  border-bottom: 2px dotted lightblue;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 15px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.top {
+  background-image: url(../img/school.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.top .header-btn {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 50px;
+}
+
+.top .btn a {
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+
+.top .nav-wrap {
+  position: relative;
+}
+
+.top .main-item {
+  font-size: 24px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.top .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  background-color: rgba(19, 158, 223, 0.72);
+  margin-top: 40px;
+}
+
+.top .nav-list .item {
+  margin-right: 50px;
+}
+
+.top .nav-list .item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 50px 10px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.top .nav-list .item a:hover {
+  background-color: #fa9786;
+}
+
+.image {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.image img {
+  width: 700px;
+  -webkit-box-shadow: 30px 30px 0 lightblue;
+          box-shadow: 30px 30px 0 lightblue;
+}
+
+.text .desc {
+  background-color: #f1f8fe;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text .desc p {
+  text-align: center;
+  line-height: 2;
+  font-size: 16px;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.profile .image {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profile .image img {
+  width: 700px;
+  -webkit-box-shadow: 30px 30px 0 lightblue;
+          box-shadow: 30px 30px 0 lightblue;
+}
+
+.profile .profile-text {
+  margin-top: 100px;
+}
+
+.profile .profile-title {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.profile .profile-title p {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  border-radius: 10px;
+  background: lightblue;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.profile .profile-title p::after {
+  position: absolute;
+  bottom: -9px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: "";
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: lightblue transparent transparent transparent;
+}
+
+.profile .profile-desc {
+  width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-box-shadow: 0 0 10px #00000029;
+          box-shadow: 0 0 10px #00000029;
+}
+
+.profile .profile-desc p {
+  font-size: 16px;
+}
+
+.profile table {
+  border-collapse: collapse;
+  color: #333;
+  /* 全体の文字色 */
+  background-color: #f0f2f7;
+  /* 全体の背景色 */
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.profile td {
+  padding: 10px 15px;
+  border: solid 1px #adb3c1;
+}
+
+.profile .center {
+  text-align: center;
+}
+
+.study .text {
+  -webkit-box-shadow: 0 0 10px #00000029;
+          box-shadow: 0 0 10px #00000029;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.study .text p {
+  font-size: 16px;
+}
+
+.study .subject {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.study .name {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  border-radius: 10px;
+  background: lightblue;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.study .name::after {
+  position: absolute;
+  bottom: -9px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: "";
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: lightblue transparent transparent transparent;
+}
+
+.study .desc {
+  width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-box-shadow: 0 0 10px #00000029;
+          box-shadow: 0 0 10px #00000029;
+  line-height: 2;
+}
+/*# sourceMappingURL=style.css.map */
