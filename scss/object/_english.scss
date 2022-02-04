@@ -20,12 +20,18 @@
     .nav-list {
         padding-bottom: 20px;
     }
+    .nav-btn {
+        display: none;
+    }
     .header-fixed {
+        @media print, screen and (max-width: 992px) {
+            padding-bottom: 65px;
+        }
         @media print, screen and (max-width: 580px) {
-            padding-bottom: 55px;
+            padding-bottom: 85px;
         }
         @media print, screen and (max-width: 430px) {
-            padding-bottom: 45px;
+            padding-bottom: 75px;
         }
     }
     .text {
