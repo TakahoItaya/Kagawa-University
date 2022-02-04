@@ -62,7 +62,7 @@ p {
   line-height: 1.5;
 }
 
-@media print, screen and (max-width: 400px) {
+@media print, screen and (max-width: 500px) {
   .cmn-title p {
     font-size: 18px;
   }
@@ -102,11 +102,11 @@ p {
 
 @media print, screen and (max-width: 570px) {
   .cmn-subtitle p {
-    width: 350px;
+    width: auto;
   }
 }
 
-@media print, screen and (max-width: 450px) {
+@media print, screen and (max-width: 500px) {
   .cmn-subtitle p {
     width: 230px;
     font-size: 14px;
@@ -165,6 +165,10 @@ p {
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 30px;
+}
+
+.top .btn a:hover {
+  background-color: #fa9786;
 }
 
 .top .header {
@@ -436,12 +440,23 @@ p {
   .text .desc p {
     margin-right: 10px;
     margin-left: 10px;
-    font-size: 2vw;
+  }
+}
+
+@media print, screen and (max-width: 570px) {
+  .text .desc p {
+    font-size: 14px;
   }
 }
 
 .text .br {
   display: inline-block;
+}
+
+@media print, screen and (max-width: 450px) {
+  .text .sp {
+    display: none;
+  }
 }
 
 .profile .image {
@@ -594,12 +609,12 @@ p {
 @media print, screen and (max-width: 500px) {
   .profile table {
     width: 450px;
-    white-space: nowrap;
-    /* 折り返されないように */
-    overflow-x: auto;
-    /* 横スクロール */
-    -webkit-overflow-scrolling: touch;
-    /* スマホでスムーズにスクロールできるように */
+  }
+}
+
+@media print, screen and (max-width: 450px) {
+  .profile table {
+    width: 365px;
   }
 }
 
@@ -623,6 +638,12 @@ p {
 
 .profile .center {
   text-align: center;
+}
+
+@media print, screen and (min-width: 450px) {
+  .profile .table-sp {
+    display: none;
+  }
 }
 
 .study .text {
@@ -751,13 +772,13 @@ p {
   }
 }
 
-@media print, screen and (max-width: 570px) {
+@media print, screen and (max-width: 610px) {
   .study .desc {
     width: 400px;
   }
 }
 
-@media print, screen and (max-width: 470px) {
+@media print, screen and (max-width: 520px) {
   .study .desc {
     width: 350px;
     padding-right: 15px;
@@ -768,6 +789,7 @@ p {
 @media print, screen and (max-width: 420px) {
   .study .desc {
     width: 300px;
+    font-size: 14px;
   }
 }
 
@@ -912,6 +934,178 @@ p {
 
 @media print, screen and (max-width: 420px) {
   .archievement .explanation {
+    font-size: 14px;
+  }
+}
+
+@media print, screen and (max-width: 400px) {
+  .english .nav-btn {
+    margin-right: 0px;
+  }
+}
+
+@media print, screen and (max-width: 430px) {
+  .english .main-item {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (min-width: 580px) {
+  .english .sp {
+    display: none;
+  }
+}
+
+.english .nav-list {
+  padding-bottom: 20px;
+}
+
+@media print, screen and (max-width: 580px) {
+  .english .header-fixed {
+    padding-bottom: 55px;
+  }
+}
+
+@media print, screen and (max-width: 430px) {
+  .english .header-fixed {
+    padding-bottom: 45px;
+  }
+}
+
+.english .text {
+  width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-box-shadow: 0 0 10px #00000029;
+          box-shadow: 0 0 10px #00000029;
+}
+
+@media print, screen and (max-width: 1100px) {
+  .english .text {
+    width: 800px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media print, screen and (max-width: 900px) {
+  .english .text {
+    width: 600px;
+  }
+}
+
+@media print, screen and (max-width: 680px) {
+  .english .text {
+    width: 500px;
+  }
+}
+
+@media print, screen and (max-width: 570px) {
+  .english .text {
+    width: 400px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .english .text {
+    width: 350px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media print, screen and (max-width: 420px) {
+  .english .text {
+    width: 300px;
+  }
+}
+
+.english .text p {
+  font-size: 16px;
+}
+
+@media print, screen and (min-width: 570px) and (max-width: 680px) {
+  .english .text p .br {
+    display: inline-block;
+  }
+  .english .text p .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 570px) {
+  .english .text p {
+    font-size: 14px;
+  }
+  .english .text p .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 420px) {
+  .english .text p {
+    font-size: 14px;
+  }
+}
+
+.english .cont p {
+  width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-box-shadow: 0 0 10px #00000029;
+          box-shadow: 0 0 10px #00000029;
+  line-height: 2;
+}
+
+@media print, screen and (max-width: 1100px) {
+  .english .cont p {
+    width: 800px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media print, screen and (max-width: 900px) {
+  .english .cont p {
+    width: 600px;
+  }
+}
+
+@media print, screen and (max-width: 680px) {
+  .english .cont p {
+    width: 500px;
+  }
+}
+
+@media print, screen and (max-width: 570px) {
+  .english .cont p {
+    width: 400px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .english .cont p {
+    width: 350px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media print, screen and (max-width: 420px) {
+  .english .cont p {
+    width: 300px;
     font-size: 14px;
   }
 }

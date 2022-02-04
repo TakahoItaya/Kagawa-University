@@ -96,9 +96,9 @@
         }
         @media print, screen and (max-width: 500px) {
             width: 450px;
-            white-space: nowrap; /* 折り返されないように */
-            overflow-x: auto; /* 横スクロール */
-            -webkit-overflow-scrolling: touch; /* スマホでスムーズにスクロールできるように */
+        }
+        @media print, screen and (max-width: 450px) {
+            width: 365px;
         }
     }
     td {
@@ -114,5 +114,10 @@
     }
     .center {
         text-align: center;
+    }
+    .table-sp {
+        @media print, screen and (min-width: 450px) {
+            display: none;
+        }
     }
 }

@@ -81,16 +81,17 @@
         @media print, screen and (max-width: 680px) {
             width: 500px;
         }
-        @media print, screen and (max-width: 570px) {
+        @media print, screen and (max-width: 610px) {
             width: 400px;
         }
-        @media print, screen and (max-width: 470px) {
+        @media print, screen and (max-width: 520px) {
             width: 350px;
             padding-right: 15px;
             padding-left: 15px;
         }
         @media print, screen and (max-width: 420px) {
             width: 300px;
+            font-size: 14px;
         }
     }
 }
