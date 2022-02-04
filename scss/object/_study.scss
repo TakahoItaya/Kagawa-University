@@ -1,0 +1,96 @@
+.study {
+    .text {
+        box-shadow: 0 0 10px #00000029;
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 50px;
+        padding-left: 50px;
+        @media print, screen and (max-width: 1100px) {
+            width: 800px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        @media print, screen and (max-width: 900px) {
+            width: 600px;
+        }
+        @media print, screen and (max-width: 680px) {
+            width: 500px;
+        }
+        @media print, screen and (max-width: 570px) {
+            width: 400px;
+        }
+        @media print, screen and (max-width: 470px) {
+            width: 350px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        @media print, screen and (max-width: 420px) {
+            width: 300px;
+        }
+        p {
+            font-size: 16px;
+            @media print, screen and (max-width: 420px) {
+                font-size: 14px;
+            }
+        }
+    }
+    .subject {
+        margin-right: 30px;
+        margin-left: 30px;
+        @media print, screen and (max-width: 520px) {
+            width: 400px;
+        }
+        @media print, screen and (max-width: 500px) {
+            width: 400px;
+        }
+
+        @media print, screen and (max-width: 450px) {
+            width: 350px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    .desc {
+        width: 1000px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 50px;
+        padding-left: 50px;
+        box-shadow: 0 0 10px #00000029;
+        line-height: 2;
+        @media print, screen and (max-width: 1100px) {
+            width: 800px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        @media print, screen and (max-width: 900px) {
+            width: 600px;
+        }
+        @media print, screen and (max-width: 680px) {
+            width: 500px;
+        }
+        @media print, screen and (max-width: 570px) {
+            width: 400px;
+        }
+        @media print, screen and (max-width: 470px) {
+            width: 350px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        @media print, screen and (max-width: 420px) {
+            width: 300px;
+        }
+    }
+}
