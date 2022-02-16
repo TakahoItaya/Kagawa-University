@@ -68,6 +68,16 @@
                 font-size: 14px;
             }
         }
+        a {
+            text-decoration: none;
+            color: #4c4c4c;
+            &:hover {
+                color: blue;
+            }
+            @media print, screen and (max-width: 680px) {
+                font-size: 12px;
+            }
+        }
     }
     table {
         border-collapse: collapse;
@@ -118,6 +128,19 @@
     .table-sp {
         @media print, screen and (min-width: 450px) {
             display: none;
+        }
+    }
+    .intro {
+        text-align: center;
+        .sp {
+            @media print, screen and (min-width: 680px) {
+                display: none;
+            }
+        }
+        .dots {
+            @media print, screen and (max-width: 680px) {
+                display: none;
+            }
         }
     }
 }

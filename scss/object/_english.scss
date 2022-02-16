@@ -88,6 +88,12 @@
             }
         }
     }
+    .center {
+        text-align: center;
+        @media print, screen and (max-width: 420px) {
+            text-align: left;
+        }
+    }
 
     .cont {
         p {
@@ -125,6 +131,29 @@
             @media print, screen and (max-width: 420px) {
                 width: 300px;
                 font-size: 14px;
+            }
+            a {
+                text-decoration: none;
+                color: #4c4c4c;
+                &:hover {
+                    color: blue;
+                }
+                @media print, screen and (max-width: 680px) {
+                    font-size: 12px;
+                }
+            }
+        }
+        .related {
+            text-align: center;
+            .related-sp {
+                @media print, screen and (min-width: 680px) {
+                    display: none;
+                }
+            }
+            .dots {
+                @media print, screen and (max-width: 680px) {
+                    display: none;
+                }
             }
         }
     }

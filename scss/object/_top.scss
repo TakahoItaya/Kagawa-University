@@ -7,8 +7,7 @@
     }
     .btn {
         padding-top: 30px;
-        display: flex;
-        justify-content: end;
+        text-align: right;
         margin-right: 20px;
         @include overTab {
             margin-right: 50px;

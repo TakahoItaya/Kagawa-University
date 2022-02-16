@@ -141,12 +141,7 @@ p {
 
 .top .btn {
   padding-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  text-align: right;
   margin-right: 20px;
 }
 
@@ -563,6 +558,21 @@ p {
   }
 }
 
+.profile .profile-desc a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.profile .profile-desc a:hover {
+  color: blue;
+}
+
+@media print, screen and (max-width: 680px) {
+  .profile .profile-desc a {
+    font-size: 12px;
+  }
+}
+
 .profile table {
   border-collapse: collapse;
   color: #333;
@@ -642,6 +652,22 @@ p {
 
 @media print, screen and (min-width: 450px) {
   .profile .table-sp {
+    display: none;
+  }
+}
+
+.profile .intro {
+  text-align: center;
+}
+
+@media print, screen and (min-width: 680px) {
+  .profile .intro .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 680px) {
+  .profile .intro .dots {
     display: none;
   }
 }
@@ -1064,6 +1090,16 @@ p {
   }
 }
 
+.english .center {
+  text-align: center;
+}
+
+@media print, screen and (max-width: 420px) {
+  .english .center {
+    text-align: left;
+  }
+}
+
 .english .cont p {
   width: 1000px;
   margin-top: 30px;
@@ -1117,6 +1153,37 @@ p {
   .english .cont p {
     width: 300px;
     font-size: 14px;
+  }
+}
+
+.english .cont p a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.english .cont p a:hover {
+  color: blue;
+}
+
+@media print, screen and (max-width: 680px) {
+  .english .cont p a {
+    font-size: 12px;
+  }
+}
+
+.english .cont .related {
+  text-align: center;
+}
+
+@media print, screen and (min-width: 680px) {
+  .english .cont .related .related-sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 680px) {
+  .english .cont .related .dots {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
